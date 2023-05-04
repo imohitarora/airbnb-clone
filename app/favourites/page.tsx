@@ -1,8 +1,8 @@
-import getCurrentUser from '../actions/getCurrentUser';
-import getFavouriteListings from '../actions/getFavouriteListings';
+import getCurrentUser from '@/app/actions/getCurrentUser';
+import getFavouriteListings from '@/app/actions/getFavouriteListings';
 
-import ClientOnly from '../components/ClientOnly';
-import EmptyState from '../components/EmptyState';
+import ClientOnly from '@/app/components/ClientOnly';
+import EmptyState from '@/app/components/EmptyState';
 
 import FavouritesClient from './FavouritesClient';
 
